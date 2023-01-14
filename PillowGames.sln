@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PillowGames", "PillowGames.csproj", "{60C02747-694E-4497-8385-5AD6519D7C50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60C02747-694E-4497-8385-5AD6519D7C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C02747-694E-4497-8385-5AD6519D7C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C02747-694E-4497-8385-5AD6519D7C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C02747-694E-4497-8385-5AD6519D7C50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A50FD96C-CFEE-4791-94C7-6CD2E9D35D68}
+	EndGlobalSection
+EndGlobal
