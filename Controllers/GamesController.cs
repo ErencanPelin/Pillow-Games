@@ -34,7 +34,7 @@ namespace PillowGames.Controllers
             }
 
             var game = await _context.Games
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.ID == id);
             if (game == null)
             {
                 return NotFound();
@@ -88,7 +88,7 @@ namespace PillowGames.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,Genre")] Game game)
         {
-            if (id != game.Id)
+            if (id != game.ID)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace PillowGames.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!GameExists(game.Id))
+                    if (!GameExists(game.ID))
                     {
                         return NotFound();
                     }
@@ -125,7 +125,7 @@ namespace PillowGames.Controllers
             }
 
             var game = await _context.Games
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.ID == id);
             if (game == null)
             {
                 return NotFound();
@@ -155,7 +155,7 @@ namespace PillowGames.Controllers
 
         private bool GameExists(int id)
         {
-          return _context.Games.Any(e => e.Id == id);
+          return _context.Games.Any(e => e.ID == id);
         }
     }
 }

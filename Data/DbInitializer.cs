@@ -1,4 +1,4 @@
-﻿using MvcCore.Enums;
+﻿using PillowGames.Enums;
 using PillowGames.Models;
 
 namespace PillowGames.Data
