@@ -1,5 +1,5 @@
-# Pillow-Games
-ASP.NET Web MVC Core app. To be connected to be able to pull games from Steam API and behave as a similar game store
+# Pillow Games
+ASP.NET Web MVC Core app. To be connected to be able to pull games from Steam API and behave as a similar game store. 
 <br><br>
 # Changelog
 In order of latest changes, using semantic versioning.
